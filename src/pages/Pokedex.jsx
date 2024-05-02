@@ -47,7 +47,7 @@ const Pokedex = () => {
             <img
               className="pokedex__header__img"
               id="pokedex__logo"
-              src="../src/pages/styles/resources/Home_banner.png"
+              src="/resources/Home_banner.png"
               alt="PokeApi Logo"
             />
           </figure>
@@ -55,7 +55,7 @@ const Pokedex = () => {
           <div className="pokedex__header__line--black"></div>
           <figure className="pokedex__header__circle">
             <img
-              src="../src/pages/styles/resources/circle.png"
+              src="/resources/circle.png"
               alt="Black circle"
             />
           </figure>

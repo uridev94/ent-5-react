@@ -25,7 +25,7 @@ const HomePage = () => {
           <img
             className="home__banner--logo"
             id="h_banner"
-            src="../src/pages/styles/resources/Home_banner.png"
+            src="/resources/Home_banner.png"
             alt="PokeApi Logo"
           />
         </div>
@@ -40,7 +40,7 @@ const HomePage = () => {
         <div className="home__footer--red"></div>
         <div className="home__footer--black"></div>
         <figure className="home__footer--figure">
-          <img src="../src/pages/styles/resources/circle.png" alt="" />
+          <img src="/resources/circle.png" alt="Black circle" />
         </figure>
       </footer>
     </div>
