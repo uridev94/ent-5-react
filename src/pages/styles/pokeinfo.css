@@ -1,0 +1,240 @@
+.pokeinfo__header {
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .pokeinfo__header__container {
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .pokeinfo__header__figure {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    display: flex;
+    z-index: 10;
+  }
+  
+  #pokeinfo__logo {
+    width: 250px;
+    padding: 0;
+    background-color: none;
+  }
+  
+  .pokeinfo__header__line--red {
+    background-color: red;
+    width: 100%;
+    height: 60px;
+  }
+  
+  .pokeinfo__header__line--black {
+    background-color: rgb(4, 4, 4);
+    width: 100%;
+    height: 30px;
+  }
+  
+  .pokeinfo__header__circle {
+    position: absolute;
+    width: 70px;
+    padding: 0px;
+    display: flex;
+    z-index: 10;
+    right: 10px;
+    top: 25px;
+  }
+
+.pokeinfo__content{
+        max-width: 1400px;
+        margin-inline: auto;
+        padding-top: 100px;
+        padding-inline: 2rem;
+}
+
+.pokeinfo__container--stats{
+    position: relative;
+    box-shadow: 0 20px 30px #4b4b4ba5;
+    margin: 0;
+    border-radius: 20px;
+}
+
+.pokeinfo__back{
+    height: 200px;
+    border-radius: 20px 20px 0px 0px;
+    border: 3px solid #fff;
+}
+
+.pokeinfo__figure__poke{
+    position: absolute;
+    width: 300px;;
+    left: 50%;
+    top: -10%;
+    transform: translate(-50%);
+}
+
+.pokeinfo__info{
+    padding: 20px 100px;
+}
+
+.pokeinfo__id__head{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.pokeinfo__id{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid gray;
+    width: 80px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.pokeinfo__info__name{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pokeinfo__pokename{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-transform: capitalize;
+    font-size:40px;
+}
+
+.pokeinfo__pokename::before{
+    content: '';
+    height: 1px;
+    background-color: rgba(128, 128, 128, 0.301);
+    flex: 1;
+}
+
+
+.pokeinfo__pokename::after{
+        content: '';
+        height: 1px;
+        background-color: rgba(128, 128, 128, 0.301);
+        flex: 1;
+}
+
+.pokeinfo__ul__wh{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    text-transform: capitalize;
+}
+
+.pokeinfo__ul__wh li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    gap: 10px;
+}
+
+
+.pokeinfo__skills{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.pokeinfo__skills h3{
+    text-align: center;
+}
+
+.pokeinfo__skills article{
+    width: 300px;
+}
+
+.pokeinfo__skills ul{
+
+    display: flex;
+    gap: 10px;
+}
+
+.pokeinfo__skills li{
+    /* flex: 1; */
+    width: 150px;
+    height: auto;
+    text-align: center;
+    border: 0.1px black solid;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+
+.pokeinfo__stats__stat{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pokeinfo__barstat{
+    width: 100%;
+    height: 25px;
+    background-color: rgba(220, 220, 220, 0.215);
+}
+
+.pokeinfo__barstat__inside{
+    height: 100%;
+}
+
+
+.pokeinfo__movements{
+    margin-top: 50px;
+    box-shadow: 0 20px 30px #4b4b4ba5;
+    border-radius: 20px;
+    padding: 20px 50px;
+    margin-bottom: 100px;
+}
+
+.pokeinfo__movements__list{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.pokeinfo__movements__list li{
+    border-radius: 20px;
+    background-color: rgba(128, 128, 128, 0.219);
+    padding: 10px 20px;
+}
+
+
+.pokeinfo__movement__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 15px;
+}
+
+
+.pokeinfo__movement__title::after{
+    content: '';
+    height: 1px;
+    background-color: rgba(128, 128, 128, 0.301);
+    flex: 1;
+}
+
+
+
+
+
+@media (max-width: 920px){
+    .pokeinfo__skills{
+        flex-direction: column;
+    }
+} 
+
+
