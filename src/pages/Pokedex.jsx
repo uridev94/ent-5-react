@@ -54,10 +54,7 @@ const Pokedex = () => {
           <div className="pokedex__header__line--red"></div>
           <div className="pokedex__header__line--black"></div>
           <figure className="pokedex__header__circle">
-            <img
-              src="/resources/circle.png"
-              alt="Black circle"
-            />
+            <img src="/resources/circle.png" alt="Black circle" />
           </figure>
         </div>
       </header>
@@ -68,7 +65,12 @@ const Pokedex = () => {
         </h2>
         <div className="pokedex__search_bar">
           <form className="pokedex__form" onSubmit={handleSubmit}>
-            <input className="pokedex__input" ref={textInput} type="text" placeholder="Search pokemon"/>
+            <input
+              className="pokedex__input"
+              ref={textInput}
+              type="text"
+              placeholder="Search pokemon"
+            />
             <button className="pokedex__button_search">Search</button>
           </form>
           <PokeSelect setSelectValue={setSelectValue} />

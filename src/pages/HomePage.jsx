@@ -32,7 +32,12 @@ const HomePage = () => {
         <h1 className="home__title">Hi, Trainer!</h1>
         <h2 className="home__subtitle">To start, please provide your name</h2>
         <form className="home__form" onSubmit={handleSubmit}>
-          <input className="home__input" ref={textInput} type="text"  placeholder="Your name..."/>
+          <input
+            className="home__input"
+            ref={textInput}
+            type="text"
+            placeholder="Your name..."
+          />
           <button className="home__button">Start</button>
         </form>
       </main>

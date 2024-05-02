@@ -36,10 +36,7 @@ const PokeInfo = () => {
             <div className="pokeinfo__header__line--red"></div>
             <div className="pokeinfo__header__line--black"></div>
             <figure className="pokeinfo__header__circle">
-              <img
-                src="/resources/circle.png"
-                alt="Black circle"
-              />
+              <img src="/resources/circle.png" alt="Black circle" />
             </figure>
           </div>
         </header>
@@ -94,7 +91,7 @@ const PokeInfo = () => {
               <div className="pokeinfo__skills">
                 <article>
                   <h3>Type</h3>
-                  <ul style={{color: '#fff'}}>
+                  <ul style={{ color: "#fff" }}>
                     {pokemon?.types.map((type) => (
                       <li
                         style={{
@@ -121,7 +118,13 @@ const PokeInfo = () => {
                 <ul className="pokeinfo__stats">
                   {pokemon?.stats.map((stat) => (
                     <li key={stat.stat.url}>
-                      <div style={{fontWeight:'bold', textTransform: 'capitalize'}} className="pokeinfo__stats__stat">
+                      <div
+                        style={{
+                          fontWeight: "bold",
+                          textTransform: "capitalize",
+                        }}
+                        className="pokeinfo__stats__stat"
+                      >
                         <span> {stat.stat.name}</span>
                         <span>{stat.base_stat}/150</span>
                       </div>
